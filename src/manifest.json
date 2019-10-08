@@ -8,8 +8,8 @@
         "https://www.google.co.jp/*"
       ],
       "js": [
-        "js/vue.js",
-        "js/main.js"
+        "js/chunk-vendors.js",
+        "js/app.js"
       ]
     }
   ],

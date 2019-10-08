@@ -11,7 +11,8 @@
     "vue-template-compiler": "^2.6.10"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vue-cli-service build src/js/main.js",
+    "release": "npm run build && cp src/manifest.json dist/ && rm dist/index.html"
   },
   "keywords": [],
   "author": "",
